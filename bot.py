@@ -4,7 +4,7 @@ from flask import Flask, request
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL = os.environ.get("CHANNEL", "@StoreAgaAli")
-WEBHOOK_URL = os.environ["WEBHOOK_URL"]
+WEBHOOK_URL = os.environ["RENDER_EXTERNAL_URL"]
 
 app = Flask(__name__)
 
